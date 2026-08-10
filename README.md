@@ -1,166 +1,140 @@
-# PR.4 Accenture HR Data Analytics (Power BI)
+# 📊 HR Workforce Analytics — Power BI Dashboard
 
-# HR Workforce Analytics — Power BI Dashboard
-
-<p align="center">
-  <img src="assets/workforce-overview.png" alt="HR Workforce Analytics — Workforce Overview" width="100%">
-</p>
-
-<p align="center">
-  <b>Comprehensive HR analytics dashboard for workforce overview, attrition, compensation, hiring, and employee performance insights.</b>
-</p>
+An interactive **HR Workforce Analytics Dashboard** built in **Microsoft Power BI** to analyze workforce composition, employee attrition, compensation, salary distribution, training investment, and hiring trends.
 
 ---
 
-## 📊 Project Overview
+## 📌 Dashboard Overview
 
-The **HR Workforce Analytics Dashboard** is an interactive Power BI solution designed to provide a comprehensive view of workforce performance and employee trends.
+This project contains three analytical dashboards:
 
-The project is divided into three analytical pages:
-
-- **Workforce Overview** — Headcount, hiring trends, workforce composition, salary, performance, and department-level insights.
-- **Attrition Analysis** — Employee turnover, attrition rate, terminations, hiring growth, and attrition by department and career level.
-- **Compensation Analysis** — Salary benchmarking, salary bands, department salary ranking, training investment, and above/below-average salary distribution.
+- 👥 **Workforce Overview**
+- 📉 **Attrition Analysis**
+- 💰 **Compensation Analysis**
 
 ---
 
-## 🖥️ Dashboard Pages
+## 👥 Workforce Overview
 
-### 1. Workforce Overview
+The Workforce Overview dashboard provides a comprehensive view of employee headcount, salary, performance, diversity, hiring trends, and departmental workforce distribution.
 
-<p align="center">
-  <img src="assets/workforce-overview.png" alt="Workforce Overview Dashboard" width="100%">
-</p>
+![HR Workforce Overview](https://github.com/TusharBagle/PR.4-Accenture-HR-Data-Analytics---Power-BI-/blob/main/Image/Accenture%20HR%20-%20Workforce%20Overview.png)
 
-**Key Insights:**
-- Total Headcount
-- Active Headcount
-- Attrition Rate
-- Average Salary
-- Average Tenure
-- High Performance %
-- Gender Diversity Ratio
-- Total Training Cost
-- Year-to-Date New Hires
-- Annual Hiring vs Same Period Last Year
-- Workforce Distribution by Career Level
-- Active Headcount by Department
-- Department Salary & Performance Ranking
+### 🔍 Key Insights
+
+- **50K total employees** are represented in the workforce.
+- **41K active employees** are currently part of the organization.
+- The overall **attrition rate is 17.89%**.
+- **Average salary is approximately ₹69.85K**.
+- **High-performance employees account for 23.10%** of the workforce.
+- **Production** has the highest active headcount among departments.
+- **Software Engineering** has the highest average salary at approximately **₹72K**.
+- Hiring trends show noticeable variations across different months and years.
+- Workforce distribution is concentrated mainly within the **Experienced and Intermediate** career levels.
 
 ---
 
-### 2. Attrition Analysis
+## 📉 Attrition Analysis
 
-<p align="center">
-  <img src="assets/attrition-analysis.png" alt="Attrition Analysis Dashboard" width="100%">
-</p>
+The Attrition Analysis dashboard focuses on employee turnover, termination patterns, attrition rates, and new-hire growth across departments and career levels.
 
-**Key Insights:**
-- Overall Attrition Rate
-- Terminated Employees
-- Attrition Rate YTD
-- New Hire YoY Growth
-- Year-to-Date New Hires
-- Terminated Employees by Career Level
-- Terminated Employees by Year
-- Attrition Rate by Department
-- Interactive Year and Department Analysis
+![HR Attrition Analysis](https://github.com/TusharBagle/PR.4-Accenture-HR-Data-Analytics---Power-BI-/blob/main/Image/Accenture%20HR%20-%20Attrition%20Analysis.png)
 
----
+### 🔍 Key Insights
 
-### 3. Compensation Analysis
-
-<p align="center">
-  <img src="assets/compensation-analysis.png" alt="Compensation Analysis Dashboard" width="100%">
-</p>
-
-**Key Insights:**
-- Average Salary by Department
-- Department Salary Ranking
-- Training Cost by Department
-- Above vs Below Average Salary
-- Employee Distribution by Salary Band
-- Career Level Band Analysis
-- Salary Band Analysis
-- Department Compensation Benchmarking
+- The dashboard shows an overall **attrition rate of 20.80%**.
+- Approximately **2K employees** are shown as terminated in the selected analysis context.
+- **Software Engineering** records the highest departmental attrition rate at approximately **38.02%**.
+- **Production** follows with an attrition rate of approximately **23.23%**.
+- **Sales** and **IT/IS** show comparatively lower attrition rates of approximately **15.41%** and **14.54%**.
+- The majority of terminated employees belong to the **Beginner career level**, with approximately **1.7K terminations**.
+- New-hire growth shows a significant **134.18% YoY increase** in the selected period.
+- The dashboard highlights departments and employee segments that may require stronger **retention and engagement strategies**.
 
 ---
 
-## 🎯 Business Questions Answered
+## 💰 Compensation Analysis
 
-1. What is the current workforce size?
-2. How many employees are currently active?
-3. What is the overall attrition rate?
-4. Which departments have the highest attrition?
-5. Which career levels experience the most employee turnover?
-6. How has hiring changed year over year?
-7. Which departments have the highest average salaries?
-8. Which department ranks highest in salary?
-9. Where is the organization spending the most on employee training?
-10. What percentage of employees earn above or below average salary?
-11. How is the workforce distributed across salary bands?
-12. Which departments combine strong performance with competitive compensation?
+The Compensation Analysis dashboard evaluates departmental salaries, salary bands, training costs, and employee compensation distribution.
 
----
+![HR Compensation Analysis](https://github.com/TusharBagle/PR.4-Accenture-HR-Data-Analytics---Power-BI-/blob/main/Image/Accenture%20HR%20-%20Compansation%20Analysis.png)
 
-## 📈 Key KPIs
+### 🔍 Key Insights
 
-| KPI | Description |
-|---|---|
-| **Total Headcount** | Total number of employees |
-| **Active Headcount** | Number of currently active employees |
-| **Attrition Rate** | Percentage of employees who left |
-| **Average Salary** | Average employee salary |
-| **Average Tenure** | Average employee tenure |
-| **High Performance %** | Percentage of high-performing employees |
-| **Gender Diversity Ratio** | Workforce gender diversity indicator |
-| **Total Training Cost** | Total investment in employee training |
-| **New Hire Growth %** | Year-over-year new hire growth |
-
----
-
-## 🔍 Interactive Filters
-
-- Year
-- Department Type
-- Career Level Band
-- Salary Band
-
-These filters allow users to drill down into specific employee groups and analyze workforce trends.
+- **Software Engineering** has the highest average salary at approximately **₹71.68K**.
+- **Sales** ranks second with an average salary of approximately **₹70.26K**.
+- **Production** and **IT/IS** follow with average salaries of approximately **₹69.98K** and **₹69.52K**.
+- **Admin Offices** and **Executive Office** have comparatively lower average salaries.
+- **Production** has the highest training investment at approximately **19.0M**.
+- Employees in the **D - Lowest salary band** form the largest employee group with approximately **7.1K employees**.
+- Approximately **54.79% of employees are below the average salary**, while **45.21% are above average**.
+- The salary ranking highlights **Software Engineering as the top-ranked department** based on average salary.
+- Compensation and training investment can help HR identify areas for **salary benchmarking, employee development, and workforce investment**.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Power BI Desktop
-- DAX
-- Power Query
-- Excel
-- Data Modeling
-- Data Visualization
-- Business Intelligence
-
-### Power BI Features Used
-
-- KPI Cards
-- Bar Charts
-- Column Charts
-- Line Charts
-- Donut Charts
-- Tables & Matrices
-- Slicers
-- Conditional Formatting
-- DAX Measures
-- Time Intelligence
-- Interactive Page Navigation
-- Cross-filtering
+| Technology | Usage |
+|---|---|
+| **Power BI** | Dashboard Development & Data Visualization |
+| **DAX** | Measures, KPIs & Calculations |
+| **Power Query** | Data Cleaning & Transformation |
+| **Microsoft Excel** | Data Preparation |
+| **GitHub** | Project Documentation & Version Control |
 
 ---
 
-## 🧮 Example DAX Measures
+## 🎯 Business Objectives
 
-### Active Headcount
+- Understand workforce composition and employee distribution.
+- Monitor employee attrition and termination trends.
+- Identify departments with higher employee turnover.
+- Analyze hiring performance and workforce growth.
+- Benchmark salaries across departments.
+- Understand salary-band distribution.
+- Evaluate departmental training investments.
+- Support data-driven HR decision-making.
 
-```DAX
-ACTIVE HEADCOUNT =
-COUNTROWS(Employees)
+---
+
+## 🔍 Dashboard Interactivity
+
+### Workforce & Attrition Filters
+- Year
+- Career Level Band
+- Department Type
+
+### Compensation Filters
+- Career Level Band
+- Salary Band
+
+These filters allow users to dynamically explore different employee segments and departmental performance.
+
+---
+
+## 📂 Dashboard Structure
+
+```text
+HR Workforce Analytics
+│
+├── 👥 Workforce Overview
+│   ├── Headcount Analysis
+│   ├── Salary Analysis
+│   ├── Performance Analysis
+│   ├── Hiring Trends
+│   └── Department Performance
+│
+├── 📉 Attrition Analysis
+│   ├── Attrition Rate
+│   ├── Terminated Employees
+│   ├── Attrition by Department
+│   ├── Attrition by Career Level
+│   └── New Hire Growth
+│
+└── 💰 Compensation Analysis
+    ├── Average Salary by Department
+    ├── Salary Ranking
+    ├── Salary Band Distribution
+    ├── Training Cost
+    └── Above/Below Average Salary
