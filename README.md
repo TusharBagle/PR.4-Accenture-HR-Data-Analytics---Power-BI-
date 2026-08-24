@@ -1,3 +1,9 @@
+# 🎥 Project Video
+
+[▶️ Watch Project Video](https://drive.google.com/file/d/12AotpUgVKh-orPIAfhV-TlyR1J54PCVV/view?usp=sharing)
+
+---
+
 # 📊 HR Workforce Analytics — Power BI Dashboard
 
 An interactive **HR Workforce Analytics Dashboard** built in **Microsoft Power BI** to analyze workforce composition, employee attrition, compensation, salary distribution, training investment, and hiring trends.
